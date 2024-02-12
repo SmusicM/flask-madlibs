@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 30px;
+    background: linear-gradient(to right,#3498db,#2ecc71);
+}
+
+.navbar{
+    background-color: rgba(58, 36, 255, 0.897);
+    width: 115px;
+    overflow: hidden;
+}
+
+.navbar .mininav{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+#content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formCont{
+
+}
+
+.formCont .storyForm{
+
+}
+
+.formCont .storyForm h1{
+    color: #2ecc71;
+ -webkit-text-stroke: 1px rgb(0, 255, 149);
+ text-shadow: 0 0 0 yellow;
+ font-family: fantasy;
+ font-size: 65px;
+ padding: 30px;
+ letter-spacing: 3px;
+}
+
+.formCont .storyForm .prompt{
+  color: #2ecc71;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+   text-shadow: 0 0 0 rgb(0, 0, 0);
+   font-family: fantasy;
+   font-size: 20px;
+  
+}
+
+.formCont .storyForm .prompt .inputPrompt{
+ 
+ box-sizing: border-box;
+}
+
+.formCont .storyForm button{
+background: linear-gradient(to right,#3498db,#2ecc71);
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  font-family: fantasy;
+  font-size: 15px;
+-webkit-text-stroke: .5px rgb(0, 255, 149);
+ text-shadow: 0 0 0 yellow;
+}
+
+.storyTextCont{
+  padding: 30px;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.storyTextCont .yourStory{
+ color: rgb(75, 75, 236);
+ -webkit-text-stroke: 1px rgb(0, 255, 149);
+ text-shadow: 0 0 0 yellow;
+ font-family: fantasy;
+ font-size: 65px;
+ padding: 30px;
+ letter-spacing: 3px;
+}
+
+.storyTextCont .storyText{
+ background-color: rgb(92, 92, 92);
+ width: 900px;
+ height:40px ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: yellow;
+ letter-spacing: 3px;
+ -webkit-text-stroke: 1px rgb(52, 143, 196);
+ text-shadow: 0 0 0 yellow;
+ font-family: fantasy;
+ font-size: 17px;
+
+
+}
